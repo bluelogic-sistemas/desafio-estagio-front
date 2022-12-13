@@ -15,10 +15,6 @@ Conheça mais sobre a **[Bluelogic](https://www.bluelogic.com.br/)**
 Para nossa primeira etapa de avaliação técnica, propomos um teste onde o objetivo é compreender quais conhecimentos você já possui e sua desenvoltura diante a problemas ou tarefas que esteja se deparando pela primeira vez.
 
 
-## 💬 Escopo do desafio
-
-Desenvolver uma aplicação Front-end na linguagem/framework de sua preferência, tendo como requisito ser em SPA (single-page application) e atender os requisitos listados abaixo.
-
 **Você deve seguir como base para o desenvolvimento do layout da aplicação o seguinte mockup:**
 #### [ ► Mockup - Figma ](https://www.figma.com/file/DIwSpshqBdTfvujx801ccs/Desafio-Front?node-id=0%3A1&t=IcJWDvFDZV1zGeln-1)
 
