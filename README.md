@@ -7,7 +7,6 @@ Conheça mais sobre a **[Bluelogic](https://www.bluelogic.com.br/)**
 - Crie um repositório no seu GitHub.
 - Faça seus commits no seu repositório.
 - Você poderá consultar o Google, Stackoverflow ou algum projeto particular na sua máquina.
-- Dê uma olhada nos [Materiais úteis](#materiais-úteis).
 - Fique tranquilo, respire, assim como você, também já passamos por essa etapa. Boa sorte! :)
 
 ## Como funciona o desafio
