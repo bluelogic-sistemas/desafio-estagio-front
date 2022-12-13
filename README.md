@@ -1,4 +1,4 @@
-![Desafio técnico | Estágio TI](https://res.cloudinary.com/das1rnjvi/image/upload/v1662943721/bluelogic/capa-desafio_ccpumj.png)
+![Desafio técnico | Estágio FrontEnd](https://res.cloudinary.com/das1rnjvi/image/upload/v1662943721/bluelogic/capa-desafio_ccpumj.png)
 
 Conheça mais sobre a **[Bluelogic](https://www.bluelogic.com.br/)**
 
@@ -12,52 +12,47 @@ Conheça mais sobre a **[Bluelogic](https://www.bluelogic.com.br/)**
 
 ## Como funciona o desafio
 
-Para nossa primeira etapa de avaliação técnica, propomos um teste onde o candidato deve desenvolver uma API RESTFul, veja a seguir os requisitos obrigatórios do desenvolvimento.
+Para nossa primeira etapa de avaliação técnica, propomos um teste onde o objetivo é compreender quais conhecimentos você já possui e sua desenvoltura diante a problemas ou tarefas que esteja se deparando pela primeira vez.
 
-Requisitos:
 
-- Desenvolver CRUD de usuários (Criar, Listar, Atualizar e Deletar).
-- Desenvolver um endpoint para realizar login.
-- O Schema do usuário deve conter os seguintes campos (Nome, Idade, E-mail, Senha e tipos de usuário), os tipos de usuários possíveis são (ADMIN, CLIENTE).
-- Desenvolver o processo de **autenticação** dos endpoints, somente o endpoint de cadastro de usuários e login devem ser públicos, os demais endpoints devem ficar protegidos.
-- Documentação dos endpoints (Postman ou Insomnia) [como exportar](#materiais-úteis),adicionar os no projeto.
-- Adicionar instruções de como executar o projeto.
+## 💬 Escopo do desafio
 
-### Sobre o ambiente da aplicação:
+Desenvolver uma aplicação Front-end na linguagem/framework de sua preferência, tendo como requisito ser em SPA (single-page application) e atender os requisitos listados abaixo.
 
-- Utilizar NodeJs e as linguagens JavaScript ou TypeScript para implementação do código de back-end.
-- Utilizar Banco de dados MongoDB
-- Utilizar para Authenticação JWT.
+**Você deve seguir como base para o desenvolvimento do layout da aplicação o seguinte mockup:**
+#### [ ► Mockup - Figma ]([https://www.figma.com/file/9rnzjWDSvwlENgQNwxfu28/GazinFilms?node-id=110%3A1881](https://www.figma.com/file/DIwSpshqBdTfvujx801ccs/Desafio-Front?node-id=0%3A1))
 
-### Payload
+Com base no mockup do link acima você deve criar uma aplicação Front-end que consome a seguinte API : **[IMDb API](https://rapidapi.com/apidojo/api/imdb8/)**. Esta API é pública e tem dados de diversos filmes de todo o mundo. Para obter todas as informações sobre a API, pelo mesmo link você tem acesso a documentação da mesma.
 
-Faça uma **proposta** :heart: de payload, se preferir, temos um exemplo aqui:
+## 💽 Requisitos
 
-GET /users
+A aplicação deve ser componentizada, com os seguintes componentes obrigatórios:
 
-```json
-{
-    "message": "Usuários listados com sucesso!"
-    "data": {
-       "nome" : "Dev",
-       "idade" : 20
-    }
-}
-```
+- ***Header*** (Componente de cabeçalho);
+- ***Footer*** (Componente de rodapé);
+- ***Banner*** (Componente de banner com imagens recuperadas da API do IMBb);
+- ***ListFilms*** (Componente de listagem de filmes com dados recuperados da API do IMBb);
+- ***ListActors*** (Componente de listagem de atores com dados recuperados da API do IMBb);
+- ***ListResults*** (Componente de listagem de filmes com dados recuperados da API do IMBb após um filtro aplicado via Front-End);
+- ***Details*** (Componente de descrição da biografia/filmogragia/descrição de um filme ou ator com dados recuperados da API do IMBb).
 
-POST /users
+A aplicação deve conter no mínimo as quatro páginas apresentadas no mockup com as seguintes rotas:
 
-```json
-{
-   "nome" : "Dev",
-   "idade" : 20
-}
-```
+- ***/home ►*** Página incial da aplicação;
+- ***/search ►*** Página que lista os filmes após serem filtrados via o campo de input presente no header;
+- ***/movie-detail ►*** Página que exibe os detalhes de um filme selecionado;
+- ***/actor-detail ►*** Página que exibe os dados de um ator selecionado.
+
+A aplicação deve conter um campo de busca no header das páginas, que quando submetido renderiza a página `/search` contendo os filmes retornados da busca na API do IMDb.
+
+⚠️ **O layout apresentado no Figma não precisa ser seguido 100% fiel, você pode implementar novas features, funcionalidades, campos, animações, etc... como bem desejar! Use sua criatividade com base no layout apresentado para nos surpreender, isso pode acabar contando mais pontos no seu desafio.** 😃
+
+**Você também pode utilizar bibliotecas de componentes já existentes de sua escolha, como por exemplo MaterialUI, Tailwind, Bootstrap, etc..**
 
 
 ## Como entregar o desafio
 
-O desafio deve ser entregue no prazo máximo de **2 dias**, considerando que o prazo começa um dia depois do momento em que lhe enviamos as instruções.
+O desafio deve ser entregue no prazo máximo de **5 dias**, considerando que o prazo começa um dia depois do momento em que lhe enviamos as instruções.
 Enviar para o e-mail **desenvolvimento@bluelogic.com.br** com o assunto `Desafio Técnico - [NOME DA CANDIDATO(A)]`.
 
 *No Corpo do E-mail com o link do repositório do desafio*
