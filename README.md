@@ -17,7 +17,7 @@ Para nossa primeira etapa de avaliação técnica, propomos um teste onde o obje
 **Você deve seguir como base para o desenvolvimento do layout da aplicação o seguinte mockup:**
 #### [ ► Mockup - Figma ](https://www.figma.com/file/DIwSpshqBdTfvujx801ccs/Desafio-Front?node-id=0%3A1&t=IcJWDvFDZV1zGeln-1)
 
-Com base no mockup do link acima você deve criar uma aplicação Front-end que consome a seguinte API : **[IMDb API](https://rapidapi.com/apidojo/api/imdb8/)**. Esta API é pública e tem dados de diversos filmes de todo o mundo. Para obter todas as informações sobre a API, pelo mesmo link você tem acesso a documentação da mesma.
+Com base no mockup do link acima você deve criar uma aplicação Front-end que consome a seguinte API : **[IMDb API](https://developer.imdb.com/documentation/api-documentation/getting-access/)**. Esta API é pública e tem dados de diversos filmes de todo o mundo. Para obter todas as informações sobre a API, pelo mesmo link você tem acesso a documentação da mesma, caso não consiga utilizar a API pode usar dados fixos, o importante é o layout e o código HTML e CSS.
 
 ## 💽 Requisitos
 
